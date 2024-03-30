@@ -1,0 +1,153 @@
+{
+	"info": {
+		"_postman_id": "8662ae36-4521-4f89-aa4c-5e78b8bddb11",
+		"name": "Videos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28193617",
+		"_collection_link": "https://www.postman.com/mamounn/workspace/teacherstudentplatform/collection/28193617-8662ae36-4521-4f89-aa4c-5e78b8bddb11?action=share&source=collection_link&creator=28193617"
+	},
+	"item": [
+		{
+			"name": "Upload Video",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "VideoName",
+							"value": "NewVideo",
+							"type": "text"
+						},
+						{
+							"key": "VideoDescription",
+							"value": "MonMon",
+							"type": "text"
+						},
+						{
+							"key": "CourseId",
+							"value": "745cfbbe-c695-4d92-b353-d523ac7ae8ff",
+							"type": "text"
+						},
+						{
+							"key": "VideoThumbnailFile",
+							"type": "file",
+							"src": "/C:/Users/mamou/OneDrive/Pictures/Screenshots/pupil.png"
+						},
+						{
+							"key": "VideoFile",
+							"type": "file",
+							"src": "/C:/Users/mamou/OneDrive/Pictures/Camera Roll/nodding (2).mp4"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5272/api/Videos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5272",
+					"path": [
+						"api",
+						"Videos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Videos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5272/api/Videos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5272",
+					"path": [
+						"api",
+						"Videos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Video by Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5272/api/Videos/e3d84a9a-7700-4e28-b0b8-ed971c506946",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5272",
+					"path": [
+						"api",
+						"Videos",
+						"e3d84a9a-7700-4e28-b0b8-ed971c506946"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Video",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5272/api/Videos/3a69940b-eab4-4e3a-924d-a25ac3a7d0bc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5272",
+					"path": [
+						"api",
+						"Videos",
+						"3a69940b-eab4-4e3a-924d-a25ac3a7d0bc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Video",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"videoName\": \"Monmon Updated\",\r\n  \"videoDescription\": \"MonMon Updated\",\r\n  \"courseId\": \"745cfbbe-c695-4d92-b353-d523ac7ae8ff\",\r\n  \"videoThumbnail\": \"C:\\\\Users\\\\mamou\\\\source\\\\repos\\\\TeacherStudentPlatformAPI\\\\wwwroot\\\\Video_ThumbnailsVideo_Thumbnailse3d84a9a-7700-4e28-b0b8-ed971c506946.png\",\r\n  \"videoURI\": \"C:\\\\Users\\\\mamou\\\\source\\\\repos\\\\TeacherStudentPlatformAPI\\\\wwwroot\\\\VideosVideose3d84a9a-7700-4e28-b0b8-ed971c506946.mp4\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5272/api/Videos/e3d84a9a-7700-4e28-b0b8-ed971c506946",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5272",
+					"path": [
+						"api",
+						"Videos",
+						"e3d84a9a-7700-4e28-b0b8-ed971c506946"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,133 @@
+{
+	"info": {
+		"_postman_id": "5adab419-2786-455b-8b42-7e47c1ff5f82",
+		"name": "Courses",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28193617",
+		"_collection_link": "https://www.postman.com/mamounn/workspace/teacherstudentplatform/collection/28193617-5adab419-2786-455b-8b42-7e47c1ff5f82?action=share&source=collection_link&creator=28193617"
+	},
+	"item": [
+		{
+			"name": "Add Course",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"teacherId\": \"d1ffdbae-b29b-4d12-9c4c-5ae8199063c6\",\r\n  \"courseName\": \"Monmon2\",\r\n  \"courseDescription\": \"Monmon2 Describe\",\r\n  \"courseVerificationCode\": \"00712\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5272/api/Courses/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5272",
+					"path": [
+						"api",
+						"Courses",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Courses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5272/api/Courses",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5272",
+					"path": [
+						"api",
+						"Courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Course By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5272/api/Courses/745cfbbe-c695-4d92-b353-d523ac7ae8ff",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5272",
+					"path": [
+						"api",
+						"Courses",
+						"745cfbbe-c695-4d92-b353-d523ac7ae8ff"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Course",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"teacherId\": \"d1ffdbae-b29b-4d12-9c4c-5ae8199063c6\",\r\n    \"courseName\": \"Monmon\",\r\n    \"courseDescription\": \"Monmon Describe Updated\",\r\n    \"courseVerificationCode\": \"00711\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5272/api/Courses/745cfbbe-c695-4d92-b353-d523ac7ae8ff",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5272",
+					"path": [
+						"api",
+						"Courses",
+						"745cfbbe-c695-4d92-b353-d523ac7ae8ff"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Course",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5272/api/Courses/8f6eb5fa-fcb0-4b76-9250-9c4b9ba5c9e6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5272",
+					"path": [
+						"api",
+						"Courses",
+						"8f6eb5fa-fcb0-4b76-9250-9c4b9ba5c9e6"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

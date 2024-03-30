@@ -1,0 +1,103 @@
+{
+	"info": {
+		"_postman_id": "d62534ca-e894-44da-be57-e47973b84bbd",
+		"name": "Users",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28193617",
+		"_collection_link": "https://www.postman.com/mamounn/workspace/teacherstudentplatform/collection/28193617-d62534ca-e894-44da-be57-e47973b84bbd?action=share&source=collection_link&creator=28193617"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "Name",
+							"value": "MamounMohamed",
+							"type": "text"
+						},
+						{
+							"key": "Email",
+							"value": "mamoun@mamoun.com",
+							"type": "text"
+						},
+						{
+							"key": "Password",
+							"value": "Password@123",
+							"type": "text"
+						},
+						{
+							"key": "ConfirmPassword",
+							"value": "Password@123",
+							"type": "text"
+						},
+						{
+							"key": "UserType",
+							"value": "Teacher",
+							"type": "text"
+						},
+						{
+							"key": "ProfilePicture",
+							"type": "file",
+							"src": "/C:/Users/mamou/OneDrive/Pictures/Screenshots/pupil.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5272/api/Account/Register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5272",
+					"path": [
+						"api",
+						"Account",
+						"Register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "Email",
+							"value": "mamoun@mamoun.com",
+							"type": "text"
+						},
+						{
+							"key": "Password",
+							"value": "Password@123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5272/api/Account/Login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5272",
+					"path": [
+						"api",
+						"Account",
+						"Login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

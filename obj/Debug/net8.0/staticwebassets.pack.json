@@ -1,0 +1,125 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\mamou\\source\\repos\\TeacherStudentPlatformAPI\\wwwroot\\ProfilePictures\\ProfilePicd1ffdbae-b29b-4d12-9c4c-5ae8199063c6MamounMohamed.png",
+      "PackagePath": "staticwebassets\\ProfilePictures\\ProfilePicd1ffdbae-b29b-4d12-9c4c-5ae8199063c6MamounMohamed.png"
+    },
+    {
+      "Id": "C:\\Users\\mamou\\source\\repos\\TeacherStudentPlatformAPI\\wwwroot\\Video_Thumbnails\\Video_Thumbnails3a69940b-eab4-4e3a-924d-a25ac3a7d0bc.png",
+      "PackagePath": "staticwebassets\\Video_Thumbnails\\Video_Thumbnails3a69940b-eab4-4e3a-924d-a25ac3a7d0bc.png"
+    },
+    {
+      "Id": "C:\\Users\\mamou\\source\\repos\\TeacherStudentPlatformAPI\\wwwroot\\Video_Thumbnails\\Video_Thumbnailse3d84a9a-7700-4e28-b0b8-ed971c506946.png",
+      "PackagePath": "staticwebassets\\Video_Thumbnails\\Video_Thumbnailse3d84a9a-7700-4e28-b0b8-ed971c506946.png"
+    },
+    {
+      "Id": "C:\\Users\\mamou\\source\\repos\\TeacherStudentPlatformAPI\\wwwroot\\Videos\\Videos3a69940b-eab4-4e3a-924d-a25ac3a7d0bc.mp4",
+      "PackagePath": "staticwebassets\\Videos\\Videos3a69940b-eab4-4e3a-924d-a25ac3a7d0bc.mp4"
+    },
+    {
+      "Id": "C:\\Users\\mamou\\source\\repos\\TeacherStudentPlatformAPI\\wwwroot\\Videos\\Videose3d84a9a-7700-4e28-b0b8-ed971c506946.mp4",
+      "PackagePath": "staticwebassets\\Videos\\Videose3d84a9a-7700-4e28-b0b8-ed971c506946.mp4"
+    },
+    {
+      "Id": "C:\\Users\\mamou\\source\\repos\\TeacherStudentPlatformAPI\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\mamou\\source\\repos\\TeacherStudentPlatformAPI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\mamou\\source\\repos\\TeacherStudentPlatformAPI\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\mamou\\source\\repos\\TeacherStudentPlatformAPI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\mamou\\source\\repos\\TeacherStudentPlatformAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\mamou\\source\\repos\\TeacherStudentPlatformAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mamou\\source\\repos\\TeacherStudentPlatformAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mamou\\source\\repos\\TeacherStudentPlatformAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mamou\\source\\repos\\TeacherStudentPlatformAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\mamou\\source\\repos\\TeacherStudentPlatformAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mamou\\source\\repos\\TeacherStudentPlatformAPI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\mamou\\source\\repos\\TeacherStudentPlatformAPI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mamou\\source\\repos\\TeacherStudentPlatformAPI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\mamou\\source\\repos\\TeacherStudentPlatformAPI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\mamou\\source\\repos\\TeacherStudentPlatformAPI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mamou\\source\\repos\\TeacherStudentPlatformAPI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\mamou\\source\\repos\\TeacherStudentPlatformAPI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mamou\\source\\repos\\TeacherStudentPlatformAPI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\mamou\\source\\repos\\TeacherStudentPlatformAPI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\mamou\\source\\repos\\TeacherStudentPlatformAPI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mamou\\source\\repos\\TeacherStudentPlatformAPI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TeacherStudentPlatformAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TeacherStudentPlatformAPI.props",
+      "PackagePath": "build\\TeacherStudentPlatformAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TeacherStudentPlatformAPI.props",
+      "PackagePath": "buildMultiTargeting\\TeacherStudentPlatformAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TeacherStudentPlatformAPI.props",
+      "PackagePath": "buildTransitive\\TeacherStudentPlatformAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
